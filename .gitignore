@@ -20,11 +20,11 @@ reports/*.log
 Ultralytics/
 
 
-# Dataset imagery - pending license verification
-reports/review/
-reports/figures/representative_annotations.png
-reports/figures/repaired_annotations.png
-reports/figures/overlap_candidates.png
+# # Dataset imagery - pending license verification
+# reports/review/
+# reports/figures/representative_annotations.png
+# reports/figures/repaired_annotations.png
+# reports/figures/overlap_candidates.png
 
 # IDE and local configuration
 .vscode/

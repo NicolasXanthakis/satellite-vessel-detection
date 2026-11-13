@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ships_93c8dde312f73c73bb00",
+    "source_name": "frederikshavn1subset10",
+    "member": "ships-aerial-images/test/images/frederikshavn1subset10_jpg.rf.fe2cf5dd10f9cc8dcf0197265edf61ac.jpg",
+    "status": "quarantined"
+  },
+  {
+    "id": "ships_32527005441d84eb04f7",
+    "source_name": "frederikshavn1subset6",
+    "member": "ships-aerial-images/train/images/frederikshavn1subset6_jpg.rf.a89144a58a7f11781b9444a0242ddb0b.jpg",
+    "status": "quarantined"
+  },
+  {
+    "id": "ships_06d37d8b66cccf33c0cd",
+    "source_name": "skagen1subset1",
+    "member": "ships-aerial-images/train/images/skagen1subset1_jpg.rf.f61a6da5bc0d60a8454f28316a964409.jpg",
+    "status": "accepted"
+  },
+  {
+    "id": "ships_324b5d44f7470aa14d99",
+    "source_name": "skagen2subset15",
+    "member": "ships-aerial-images/train/images/skagen2subset15_jpg.rf.bd10139351bf6c3720e4caf9f3e801a9.jpg",
+    "status": "accepted"
+  },
+  {
+    "id": "ships_09083232321c387b672d",
+    "source_name": "20181030_023205_1018_3b_visual_0",
+    "member": "ships-aerial-images/train/images/20181030_023205_1018_3B_Visual_0_png.rf.6a81a6318b84be7d4f856308fbd3a155.jpg",
+    "status": "quarantined"
+  },
+  {
+    "id": "ships_18bed5f2221be5d3e74a",
+    "source_name": "20190513_055612_1049_3b_visual_4",
+    "member": "ships-aerial-images/train/images/20190513_055612_1049_3B_Visual_4_png.rf.12a9edf4dab552e59654c21480455070.jpg",
+    "status": "quarantined"
+  }
+]
