@@ -1,6 +1,6 @@
 # Maritime vessel detection and geospatial analysis
 
-A reproducible engineering portfolio project for satellite/aerial vessel detection with YOLO, followed by geospatial inference and analysis. The implemented stage prepares, audits and validates a single-class detection dataset. Training and geospatial inference have not started; no accuracy or vessel-location result is claimed.
+The goal of this project is to detect and analyze ships in satellite and aerial imagery using deep learning. By combining Python, computer vision and YOLO, the project aims to identify vessels, determine their geographic locations and analyze maritime traffic and port congestion.
 
 ## Project highlights
 
