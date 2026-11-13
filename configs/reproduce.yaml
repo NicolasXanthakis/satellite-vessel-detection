@@ -1,0 +1,25 @@
+# An independent export beside the completed dataset; originals remain untouched.
+sources:
+  aerial: data/AerialShipDetectionDataset.zip
+  ships: data/ShipsVessels inAerial Images.zip
+output: data/processed_reproduction
+quarantine: data/quarantine_reproduction
+reports: reports/reproduction
+cache: .cache/ingestion.jsonl
+seed: 42
+ratios: [0.8, 0.1, 0.1]
+workers: 8
+phash_distance: 4
+group_parent_scenes: true
+variant_max_mae: 0.01568627450980392
+variant_min_box_iou: 0.5
+minimum_box_side_pixels: 1.0
+require_clipped_annotation_review: true
+approved_clipped_image_ids: []
+reviewed_exclusions:
+  - id: unverified_cloud_or_vessel_annotation_family
+    source: ships
+    normalized_pattern: 'frederikshavn|3b_visual'
+    reason: unverified_semantic_annotation_family
+    rationale: 'Visual review found boxes on clouds in frederikshavn examples and cloud/non-vessel regions in 3B Visual examples. Family-level class semantics cannot be verified; quarantine all matching records pending provenance and annotation review. This does not assert that every matching box is wrong.'
+    evidence: review/semantic_review.png

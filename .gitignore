@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/
+!data/.gitkeep
+.cache/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.cache
+runs/
+tmp/
+*.tmp
+reports/manifests/
+reports/history/
+reports/*.log
+.ultralytics/
+Ultralytics/
+
+
+# Dataset imagery - pending license verification
+reports/review/
+reports/figures/representative_annotations.png
+reports/figures/repaired_annotations.png
+reports/figures/overlap_candidates.png
+
+# IDE and local configuration
+.vscode/
+.env
+.env.*

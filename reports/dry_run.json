@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "seed": 42,
+  "target_ratios": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "source_archives": {
+    "aerial": {
+      "sha256": "6b121248166e895690d3c5e62017aa37b7f4c08a7d48697de6f100c33aa9c12f",
+      "bytes": 493806539,
+      "path": "data/AerialShipDetectionDataset.zip"
+    },
+    "ships": {
+      "sha256": "e190fa99bbab044707ed9d93ec19d9c74264ba195cfc7ecfe55b7efc3382bf02",
+      "bytes": 370165653,
+      "path": "data/ShipsVessels inAerial Images.zip"
+    }
+  },
+  "original": {
+    "aerial": {
+      "train_v2": {
+        "images": 3202,
+        "label_files": 2453,
+        "paired_label_files": 2452,
+        "annotation_rows": 16775,
+        "orphan_label_files": 1
+      },
+      "val_v2": {
+        "images": 136,
+        "label_files": 23,
+        "paired_label_files": 23,
+        "annotation_rows": 175,
+        "orphan_label_files": 0
+      }
+    },
+    "ships": {
+      "test": {
+        "images": 1573,
+        "label_files": 1573,
+        "paired_label_files": 1573,
+        "annotation_rows": 2872,
+        "orphan_label_files": 0
+      },
+      "train": {
+        "images": 9697,
+        "label_files": 9697,
+        "paired_label_files": 9697,
+        "annotation_rows": 19456,
+        "orphan_label_files": 0
+      },
+      "valid": {
+        "images": 2165,
+        "label_files": 2165,
+        "paired_label_files": 2165,
+        "annotation_rows": 3720,
+        "orphan_label_files": 0
+      }
+    }
+  },
+  "original_images": 16773,
+  "original_annotation_rows": 42998,
+  "final_images": 8633,
+  "final_objects": 24485,
+  "statuses": {
+    "quarantined": 8132,
+    "accepted": 8633,
+    "duplicate_removed": 8
+  },
+  "quarantine_reasons_nonexclusive": {
+    "clipped_annotation_requires_review": 1403,
+    "missing_annotation": 863,
+    "exact_duplicate_annotation_conflict": 40,
+    "transformed_duplicate_annotation_conflict": 5284,
+    "unverified_empty_annotation": 470,
+    "subpixel_annotation": 634,
+    "related_annotation_conflict": 30,
+    "unverified_semantic_annotation_family": 534,
+    "invalid_annotation": 7
+  },
+  "orphan_annotations": 1,
+  "excluded_standalone_images": [
+    "data/ship1.JPG"
+  ],
+  "polygons_converted_in_accepted": 673,
+  "boxes_clipped_in_accepted": 0,
+  "polygons_converted_during_inspection": 675,
+  "boxes_clipped_during_inspection": 1573,
+  "collapsed_object_rows_in_accepted": 0,
+  "relations": {
+    "exact_duplicate_clusters": 32,
+    "conflict_clusters": [
+      [
+        "aerial_13718be38eaffa0bef45",
+        "aerial_54b2c61d6a1fb63d21e7"
+      ],
+      [
+        "ships_01c9aeab0444b9e47877",
+        "ships_086dffbaea21a73e4f3f"
+      ],
+      [
+        "ships_034d877e1df0ca9231f2",
+        "ships_1744881d702ac877e42f"
+      ],
+      [
+        "ships_05e4f2596ab4a88faf04",
+        "ships_b4ecd6e3c4a9c9a8807c"
+      ],
+      [
+        "ships_0e56e1a4c3d0f2906688",
+        "ships_25d0033e2c5fd7a11778"
+      ],
+      [
+        "ships_1cb46813332fe14dc80c",
+        "ships_5519ca513e1b44a41b4e"
+      ],
+      [
+        "ships_1e14de2700feedcbedb8",
+        "ships_c5f86e5bc393434ad64d"
+      ],
+      [
+        "ships_251477cb2c4c6aad3168",
+        "ships_68701bd9023e0f6037a3"
+      ],
+      [
+        "ships_31f06757748f680fc5dc",
+        "ships_6ebe9a4622a52d37c753"
+      ],
+      [
+        "ships_32fb9d41a6180c01fbf6",
+        "ships_a643ce799655a7e64699"
+      ],
+      [
+        "ships_338807193a84bb2e7249",
+        "ships_abf1d9740379ec6a23c3"
+      ],
+      [
+        "ships_376ff47273c08c8efb0e",
+        "ships_af187a7828ebc63d09a2"
+      ],
+      [
+        "ships_57f7c2fa64653e9ed28f",
+        "ships_6883eb14b66347bc2e1d"
+      ],
+      [
+        "ships_594249818a2b460781e9",
+        "ships_a67be287e9fb6634c505"
+      ],
+      [
+        "ships_7993da32e3bc68ae8445",
+        "ships_d12ee4af91dd76b2009c"
+      ],
+      [
+        "ships_918e5ef3cb1b8f897f92",
+        "ships_cd363184f545ab8fe138"
+      ],
+      [
+        "ships_c7b6988f20e2bf93499d",
+        "ships_eaf876f5c8f2b4ccb7ec"
+      ],
+      [
+        "ships_d5e8c90f2f2dda455386",
+        "ships_fa05c767f65d612425ef"
+      ],
+      [
+        "ships_dc9ba281b2d144dc34d6",
+        "ships_fa4892b22c3527efc6fa"
+      ],
+      [
+        "ships_e727cfdabe743d55b9af",
+        "ships_ee33ecf2ee97f8afaa14"
+      ]
+    ],
+    "removed_duplicate_ids": [
+      "aerial_2e33ecf3a873b439c2b0",
+      "aerial_8425b77cc78765755587",
+      "aerial_845157d8e083b3ef8e61",
+      "aerial_a143442eadffe33bcca4",
+      "aerial_d9b69486d5b5f6f16a3c",
+      "aerial_e9ba9477240bae541bb0",
+      "aerial_fae36b366cf5720d867b",
+      "aerial_ffef9a8ca1f257d643aa"
+    ],
+    "relation_edges": {
+      "file_sha256": 32,
+      "pixel_sha256": 32,
+      "normalized_source_name": 5565,
+      "parent_scene": 66,
+      "perceptual": 1435
+    },
+    "all_groups": 9736,
+    "cross_dataset_normalized_source_groups": 28,
+    "transformed_variant_audit": {
+      "source_name_groups_investigated": 3841,
+      "thumbnail_images": 9197,
+      "pairs_compared": 7867,
+      "near_identical_aligned_pairs": 4094,
+      "conflicting_pairs": 2566,
+      "conflicting_source_name_families": 2530,
+      "images_in_conflicting_families": 5284,
+      "maximum_thumbnail_mae": 0.01568627450980392,
+      "minimum_box_iou": 0.5,
+      "phash_radius": 4
+    },
+    "review_policy": {
+      "minimum_box_side_pixels": 1.0,
+      "pixel_tolerance": 1e-06,
+      "require_clipped_annotation_review": true,
+      "approved_clipped_image_ids": [],
+      "affected_images": 2387,
+      "subpixel_box_rows": 1099,
+      "reasons_nonexclusive": {
+        "clipped_annotation_requires_review": 1403,
+        "subpixel_annotation": 634,
+        "unverified_semantic_annotation_family": 534
+      },
+      "rules": [
+        {
+          "id": "unverified_cloud_or_vessel_annotation_family",
+          "source": "ships",
+          "normalized_pattern": "frederikshavn|3b_visual",
+          "reason": "unverified_semantic_annotation_family",
+          "rationale": "Visual review found boxes on clouds in frederikshavn examples and cloud/non-vessel regions in 3B Visual examples. Family-level class semantics cannot be verified; quarantine all matching records pending provenance and annotation review. This does not assert that every matching box is wrong.",
+          "evidence": "review/semantic_review.png"
+        }
+      ]
+    }
+  },
+  "accepted_groups": 5401,
+  "largest_accepted_group": 1079,
+  "environment": {
+    "python": "3.12.7",
+    "packages": {
+      "numpy": "2.4.4",
+      "Pillow": "12.1.0",
+      "scipy": "1.17.1",
+      "matplotlib": "3.10.8",
+      "PyYAML": "6.0.1",
+      "torch": "2.11.0",
+      "ultralytics": "8.4.13",
+      "pytest": "7.4.4"
+    }
+  },
+  "split_sha256": "2eba1b32fc9eace08666ec73fa2678d91a29a4554a0c1c1b128a096106e033c4",
+  "planned_splits": {
+    "train": {
+      "images": 6906,
+      "objects": 19595
+    },
+    "val": {
+      "images": 864,
+      "objects": 2442
+    },
+    "test": {
+      "images": 863,
+      "objects": 2448
+    }
+  }
+}

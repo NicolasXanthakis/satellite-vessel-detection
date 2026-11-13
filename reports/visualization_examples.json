@@ -1,0 +1,66 @@
+[
+  {
+    "figure": "representative_annotations.png",
+    "id": "aerial_54a9957cb84f56bcd4ac",
+    "source_member": "Aerial ship detection dataset/train_v2/d715efaa9.jpg"
+  },
+  {
+    "figure": "representative_annotations.png",
+    "id": "aerial_a694c5fde9ae9f9785b3",
+    "source_member": "Aerial ship detection dataset/train_v2/56e1e6251.jpg"
+  },
+  {
+    "figure": "representative_annotations.png",
+    "id": "ships_58bceb423fad901ba27e",
+    "source_member": "ships-aerial-images/valid/images/GE_391_jpg.rf.491794b45b3b9a08c09744d0ba26beb3.jpg"
+  },
+  {
+    "figure": "representative_annotations.png",
+    "id": "ships_ab1db3d36257db874c46",
+    "source_member": "ships-aerial-images/train/images/PE_534_jpg.rf.f4a9d047e5b3db5f7ea174fa69bc9817.jpg"
+  },
+  {
+    "figure": "repaired_annotations.png",
+    "id": "aerial_56a20a5524f5d4822742",
+    "source_member": "Aerial ship detection dataset/train_v2/73e2417fc.jpg",
+    "clipped_boxes": 5
+  },
+  {
+    "figure": "repaired_annotations.png",
+    "id": "ships_34cb5fd5b29b9b528913",
+    "source_member": "ships-aerial-images/train/images/220df0d70_jpg.rf.1bf3171e65d6c1a59d99e58d5893b79b.jpg",
+    "clipped_boxes": 4
+  },
+  {
+    "figure": "overlap_candidates.png",
+    "id": "aerial_e83f8ffcf80ac8f9c225",
+    "source_member": "Aerial ship detection dataset/train_v2/20d182c75.jpg",
+    "normalized_source_name": "20d182c75",
+    "group_id": "g_760fe3f66cf0ae0e543d",
+    "split": null
+  },
+  {
+    "figure": "overlap_candidates.png",
+    "id": "ships_d43546bb7b65c88b381f",
+    "source_member": "ships-aerial-images/train/images/20d182c75_jpg.rf.c7b4ba8784eb457dc1e035d54f27e63e.jpg",
+    "normalized_source_name": "20d182c75",
+    "group_id": "g_760fe3f66cf0ae0e543d",
+    "split": null
+  },
+  {
+    "figure": "overlap_candidates.png",
+    "id": "aerial_8d29726b4325bc0913c1",
+    "source_member": "Aerial ship detection dataset/train_v2/220df0d70.jpg",
+    "normalized_source_name": "220df0d70",
+    "group_id": "g_c4d8968d3df9fb7ce02f",
+    "split": null
+  },
+  {
+    "figure": "overlap_candidates.png",
+    "id": "ships_34cb5fd5b29b9b528913",
+    "source_member": "ships-aerial-images/train/images/220df0d70_jpg.rf.1bf3171e65d6c1a59d99e58d5893b79b.jpg",
+    "normalized_source_name": "220df0d70",
+    "group_id": "g_c4d8968d3df9fb7ce02f",
+    "split": null
+  }
+]

@@ -1,0 +1,9 @@
+# Versions used for the completed preparation run (Python 3.12).
+numpy==2.4.4
+Pillow==12.1.0
+scipy==1.17.1
+matplotlib==3.10.8
+PyYAML==6.0.1
+torch==2.11.0
+ultralytics==8.4.13
+pytest==7.4.4

@@ -1,0 +1,68 @@
+{
+  "image_label_correspondence": "passed",
+  "geometry_classes_syntax": "passed",
+  "all_exported_images_decoded": "passed",
+  "export_hash_integrity": "passed",
+  "exact_duplicate_leakage": 0,
+  "related_group_leakage": 0,
+  "source_name_leakage": 0,
+  "recognized_parent_scene_leakage": 0,
+  "perceptual_radius_leakage": 0,
+  "reproducible_split": "passed",
+  "order_independent_split": "passed",
+  "split_sha256": "2eba1b32fc9eace08666ec73fa2678d91a29a4554a0c1c1b128a096106e033c4",
+  "splits": {
+    "train": {
+      "images": 6906,
+      "objects": 19595,
+      "sources": {
+        "aerial": 1563,
+        "ships": 5343
+      },
+      "groups": 4325
+    },
+    "val": {
+      "images": 864,
+      "objects": 2442,
+      "sources": {
+        "aerial": 195,
+        "ships": 669
+      },
+      "groups": 539
+    },
+    "test": {
+      "images": 863,
+      "objects": 2448,
+      "sources": {
+        "aerial": 195,
+        "ships": 668
+      },
+      "groups": 537
+    }
+  },
+  "ultralytics": {
+    "status": "passed",
+    "version": "8.4.13",
+    "splits": {
+      "train": {
+        "images": 6906,
+        "objects": 19595,
+        "sample_items_loaded": 3,
+        "all_parsed_labels_match": true
+      },
+      "val": {
+        "images": 864,
+        "objects": 2442,
+        "sample_items_loaded": 3,
+        "all_parsed_labels_match": true
+      },
+      "test": {
+        "images": 863,
+        "objects": 2448,
+        "sample_items_loaded": 3,
+        "all_parsed_labels_match": true
+      }
+    },
+    "training_started": false
+  }
+}

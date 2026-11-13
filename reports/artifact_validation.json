@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "source_archives_unchanged": true,
+  "original_files": {
+    "customdataset.py": "unchanged",
+    "ship1.JPG": "unchanged"
+  },
+  "quarantine_images_verified": 8132,
+  "quarantine_zip_members": 15402,
+  "original_polygon_rows_verified": 678,
+  "flagged_variant_families_fully_quarantined": 2530,
+  "automated_tests_passed": 41,
+  "export_hashes_after_ultralytics": "passed",
+  "figures": 6,
+  "all_input_images_accounted_for": true
+}
